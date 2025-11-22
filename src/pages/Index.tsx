@@ -1,12 +1,48 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background flex items-center justify-center p-6">
+      <main className="max-w-3xl w-full">
+        {/* Main content container with sharp border */}
+        <div className="border-2 border-foreground p-12 md:p-16">
+          {/* Writer's name */}
+          <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground mb-4 tracking-tight">
+            Alex Morgan
+          </h1>
+          
+          {/* Tagline */}
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light tracking-wide">
+            Writer & Storyteller
+          </p>
+
+          {/* Decorative line */}
+          <div className="w-20 h-0.5 bg-accent mb-10"></div>
+
+          {/* Brief bio */}
+          <p className="text-base md:text-lg text-foreground/80 mb-12 leading-relaxed max-w-2xl">
+            Exploring the intersection of technology, humanity, and imagination. 
+            Writing essays, stories, and reflections on life in the digital age.
+          </p>
+
+          {/* CTA to blog */}
+          <Button 
+            variant="outline" 
+            size="lg"
+            asChild
+            className="border-2 border-foreground hover:bg-foreground hover:text-background transition-all duration-300 text-base font-medium tracking-wide"
+          >
+            <a href="https://blog.example.com" target="_blank" rel="noopener noreferrer">
+              Read My Writing →
+            </a>
+          </Button>
+        </div>
+
+        {/* Footer note */}
+        <p className="text-sm text-muted-foreground mt-8 text-center">
+          © 2024 Alex Morgan. All rights reserved.
+        </p>
+      </main>
     </div>
   );
 };
