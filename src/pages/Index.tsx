@@ -8,12 +8,12 @@ const Index = () => {
         <div className="border-2 border-foreground p-12 md:p-16">
           {/* Writer's name */}
           <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground mb-4 tracking-tight">
-            Alex Morgan
+            Michèle Terdiman
           </h1>
           
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light tracking-wide">
-            Writer & Storyteller
+            Autrice & Ecrivain (au choix)
           </p>
 
           {/* Decorative line */}
@@ -32,15 +32,15 @@ const Index = () => {
             asChild
             className="border-2 border-foreground hover:bg-foreground hover:text-background transition-all duration-300 text-base font-medium tracking-wide"
           >
-            <a href="https://blog.example.com" target="_blank" rel="noopener noreferrer">
-              Read My Writing →
+            <a href="https://plumeetregard.art/" target="_blank" rel="noopener noreferrer">
+              Accéder à mon blog →
             </a>
           </Button>
         </div>
 
         {/* Footer note */}
         <p className="text-sm text-muted-foreground mt-8 text-center">
-          © 2024 Alex Morgan. All rights reserved.
+          © 2025 Michèle Terdiman. Tous droits réservés.
         </p>
       </main>
     </div>
