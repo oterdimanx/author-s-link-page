@@ -33,7 +33,7 @@ const Index = () => {
             className="border-2 border-foreground hover:bg-foreground hover:text-background transition-all duration-300 text-base font-medium tracking-wide"
           >
             <a href="https://plumeetregard.art/" target="_blank" rel="noopener noreferrer">
-              Accéder à mon blog →
+              Accéder au blog →
             </a>
           </Button>
         </div>
