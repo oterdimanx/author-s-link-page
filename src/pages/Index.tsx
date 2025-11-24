@@ -21,10 +21,8 @@ const Index = () => {
 
           {/* Brief bio */}
           <p className="text-base md:text-lg text-foreground/80 mb-12 leading-relaxed max-w-2xl">
-            Exploring the intersection of technology, humanity, and imagination. Writing essays, stories, and
-            reflections on life in the digital age. A la frontière entre la technologie, l'humanité, et l'imagination,
-            Michèle Terdiman écrit des romans, des essais, et procure un angle de réflexion sur la vie dans un siècle
-            digital.
+            A la frontière entre la technologie, l'humanité, et l'imagination, Michèle Terdiman écrit des romans, des
+            essais, et procure un angle de réflexion sur la vie dans un siècle digital.
           </p>
 
           {/* CTA to blog */}
