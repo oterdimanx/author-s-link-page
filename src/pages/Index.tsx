@@ -10,7 +10,7 @@ const Index = () => {
           <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground mb-4 tracking-tight">
             Michèle Terdiman
           </h1>
-          
+
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light tracking-wide">
             Autrice & Ecrivain (au choix)
@@ -21,13 +21,15 @@ const Index = () => {
 
           {/* Brief bio */}
           <p className="text-base md:text-lg text-foreground/80 mb-12 leading-relaxed max-w-2xl">
-            Exploring the intersection of technology, humanity, and imagination. 
-            Writing essays, stories, and reflections on life in the digital age.
+            Exploring the intersection of technology, humanity, and imagination. Writing essays, stories, and
+            reflections on life in the digital age. A la frontière entre la technologie, l'humanité, et l'imagination,
+            Michèle Terdiman écrit des romans, des essais, et procure un angle de réflexion sur la vie dans un siècle
+            digital.
           </p>
 
           {/* CTA to blog */}
-          <Button 
-            variant="outline" 
+          <Button
+            variant="outline"
             size="lg"
             asChild
             className="border-2 border-foreground hover:bg-foreground hover:text-background transition-all duration-300 text-base font-medium tracking-wide"
